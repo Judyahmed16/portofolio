@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react'
 import Navbar from "@/components/navbar/Navbar";
 
-export default function page() {
+export default function services() {
   return (
     <div>
       <Navbar />
-      About is working fine
+      Services is working fine 
     </div>
-  );
+  )
 }
