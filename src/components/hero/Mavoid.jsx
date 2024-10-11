@@ -4,7 +4,7 @@ import { SparklesCore } from "@/components/ui/sparkles";
 
 export default function Mavoid() {
   return (
-    <div className="h-screen md:h-[100vh] w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
+    <div className="h-[90vh] md:h-[100vh] w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
       <h1 className="relative z-20 pb-3 text-6xl font-bold text-center text-white md:text-7xl lg:text-9xl">
         Mavoid
       </h1>
@@ -19,10 +19,10 @@ export default function Mavoid() {
         <SparklesCore
           background="transparent"
           minSize={0.4}
-          maxSize={1}
-          particleDensity={1200}
+          maxSize={1.5}
+          particleDensity={1000}
           className="w-full h-full"
-          particleColor="#FFFFFF"
+          particleColor="#e4e7eb"
         />
  
         {/* Radial Gradient to prevent sharp edges */}

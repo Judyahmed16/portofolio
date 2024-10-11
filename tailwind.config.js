@@ -89,8 +89,10 @@ module.exports = {
       },
     },
   },
+  plugins: [require("tailgrids/plugin")],
   plugins: [require("tailwindcss-animate")],
   plugins: [addVariablesForColors],
+  
 };
 
 function addVariablesForColors({ addBase, theme }) {

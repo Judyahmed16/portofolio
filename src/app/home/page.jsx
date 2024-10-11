@@ -1,12 +1,14 @@
 import React from 'react'
 import Navbar from '@/components/navbar/Navbar'
 import Mavoid from '@/components/hero/Mavoid'
+import Footer from '@/components/ui/Footer'
 
 export default function index() {
   return (
     <div>
-        <Navbar />
+        <Navbar>black</Navbar>
         <Mavoid />
+        <Footer />
     </div>
   )
 }

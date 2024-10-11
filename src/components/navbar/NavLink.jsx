@@ -19,9 +19,9 @@ export default function NavLink({ children, href }) {
       className={
         isActive
           ? `
-        py-1 text-[10px] md:text-[17px] transition duration-500 ease-in-out border-b-2   whitespace-nowrap ${montserrat.className} hover:text-[#31769e] border-b-[#31769e] text-[#31769e] font-semibold`
+        py-1 text-[15px] md:text-[17px] transition duration-500 ease-in-out    whitespace-nowrap ${montserrat.className} hover:text-[#31769e] border-b-[#31769e] text-[#31769e] font-semibold`
           : `
-        py-1 text-[10px] md:text-[17px] transition duration-500 ease-in-out border-b-2border-b-transparent text-white whitespace-nowrap ${montserrat.className} hover:text-[#31769e] hover:border-b-[#31769e]  font-semibold`
+        py-1 text-[15px] md:text-[17px] transition duration-500 ease-in-out border-b-2border-b-transparent text-white whitespace-nowrap ${montserrat.className} hover:text-[#31769e] hover:border-b-[#31769e]  font-semibold`
       }
     >
       {children}

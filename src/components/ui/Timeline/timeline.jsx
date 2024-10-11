@@ -26,16 +26,15 @@ export const Timeline = ({
 
   return (
     (<div
-      className="w-full font-sans bg-white dark:bg-neutral-950 md:px-10"
+      className="w-full font-sans bg-black md:px-10"
       ref={containerRef}>
       <div className="px-4 py-20 mx-auto max-w-7xl md:px-8 lg:px-10">
-        <h2 className="max-w-4xl mb-4 text-lg text-black md:text-4xl dark:text-white">
+        <h2 className="max-w-4xl mb-4 text-lg text-white md:text-4xl">
           Changelog from my journey
         </h2>
         <p
-          className="max-w-sm text-sm text-neutral-700 dark:text-neutral-300 md:text-base">
-          I&apos;ve been working on Aceternity for the past 2 years. Here&apos;s
-          a timeline of my journey.
+          className="max-w-sm text-sm text-neutral-300 md:text-base">
+          Mavoid has been dedicated to delivering top-notch services in networking, website development, mobile applications, and security solutions. Here&apos;s a timeline showcasing all our services.
         </p>
       </div>
       <div ref={ref} className="relative pb-20 mx-auto max-w-7xl">
@@ -49,14 +48,14 @@ export const Timeline = ({
                   className="w-4 h-4 p-2 border rounded-full bg-neutral-200 dark:bg-neutral-800 border-neutral-300 dark:border-neutral-700" />
               </div>
               <h3
-                className="hidden text-xl font-bold md:block md:pl-20 md:text-5xl text-neutral-500 dark:text-neutral-500 ">
+                className="hidden text-xl font-bold md:block md:pl-20 md:text-5xl text-neutral-300 dark:text-neutral-500 ">
                 {item.title}
               </h3>
             </div>
 
             <div className="relative w-full pl-20 pr-4 md:pl-4">
               <h3
-                className="block mb-4 text-2xl font-bold text-left md:hidden text-neutral-500 dark:text-neutral-500">
+                className="block mb-4 text-2xl font-bold text-left md:hidden text-neutral-300">
                 {item.title}
               </h3>
               {item.content}{" "}
@@ -73,7 +72,7 @@ export const Timeline = ({
               height: heightTransform,
               opacity: opacityTransform,
             }}
-            className="absolute inset-x-0 top-0  w-[2px] bg-gradient-to-t from-purple-300 via-blue-500 to-transparent from-[0%] via-[10%] rounded-full" />
+            className="absolute inset-x-0 top-0  w-[2px] bg-gradient-to-t from-cyan-200 via-[#3d8ebc] to-transparent from-[0%] via-[10%] rounded-full" />
         </div>
       </div>
     </div>)
