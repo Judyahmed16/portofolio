@@ -1,13 +1,11 @@
 import React from 'react'
-import Link from 'next/link'
+import NavLink from './NavLink'
 
 export default function Navbar() {
   return (
-      <div className='flex gap-6 items-center justify-center bg-transparent'>
-        <Link href="/">Home</Link>
-        <Link href="/about">About</Link>
-        <Link href="/contactus">Contact us</Link>
-        <Link href="/services">Services</Link>
+      <div className='flex items-center justify-center gap-8 py-3 mx-auto bg-black'>
+        <NavLink href="/home">Home</NavLink>
+        <NavLink href="/services">Services</NavLink>
     </div>
   )
 }
