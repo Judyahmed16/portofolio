@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { Timeline } from "@/components/ui/Timeline/timeline";
+import Link from "next/link";
 
 export function TimelineDemo() {
   const data = [
@@ -9,7 +10,7 @@ export function TimelineDemo() {
       content: (
         <div>
           <p className="mb-8 text-xs font-normal text-neutral-200 md:text-sm">
-            Gym Websites, featuring new technologies
+          implementing new technologies. <Link href='/pricings' className="font-semibold underline text-sky-400">Learn more</Link>
           </p>
           <div className="grid grid-cols-2 gap-4">
             <Image
