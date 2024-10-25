@@ -22,7 +22,10 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        montserrat: ["var(--font-montserrat)"],
+        montserrat: ['var(--font-montserrat)', 'sans-serif'],
+      },
+      skew: {
+        'reverse': '15deg',  // Skewing text left by 15 degrees
       },
       colors: {
         border: "hsl(var(--border))",

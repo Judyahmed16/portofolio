@@ -28,15 +28,6 @@ export const Timeline = ({
     (<div
       className="w-full font-sans bg-black md:px-10"
       ref={containerRef}>
-      <div className="px-4 py-20 mx-auto max-w-7xl md:px-8 lg:px-10">
-        <h2 className="max-w-4xl mb-4 text-lg text-white md:text-4xl">
-          Changelog from my journey
-        </h2>
-        <p
-          className="max-w-sm text-sm text-neutral-300 md:text-base">
-          Mavoid has been dedicated to delivering top-notch services in networking, website development, mobile applications, and security solutions. Here&apos;s a timeline showcasing all our services.
-        </p>
-      </div>
       <div ref={ref} className="relative pb-20 mx-auto max-w-7xl">
         {data.map((item, index) => (
           <div key={index} className="flex justify-start pt-10 md:pt-40 md:gap-10">
@@ -72,7 +63,7 @@ export const Timeline = ({
               height: heightTransform,
               opacity: opacityTransform,
             }}
-            className="absolute inset-x-0 top-0  w-[2px] bg-gradient-to-t from-cyan-200 via-[#3d8ebc] to-transparent from-[0%] via-[10%] rounded-full" />
+            className="absolute inset-x-0 top-0 w-[2px] bg-gradient-to-t from-cyan-200 via-[#3d8ebc] to-transparent from-[0%] via-[10%] rounded-full" />
         </div>
       </div>
     </div>)
